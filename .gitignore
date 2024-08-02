@@ -5,4 +5,15 @@
 
 *.log
 
+
+#No ignorar el directorio assets esta regla es general 
+# y por ende archivos .logs seran ignorados debido a una regla
+#Debido a una regla mas especifica como lo es *.log
+
 !/assets/
+
+
+#  no ignorar archivos especificos en assets
+# esta regla negaria entonces la exlclusion de archivos .log
+
+!/assets/*.log

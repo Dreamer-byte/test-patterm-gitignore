@@ -1,0 +1,4 @@
+!#/bin/bash
+
+echo "Esto es una prueba del ARCHIVO git ignore";
+

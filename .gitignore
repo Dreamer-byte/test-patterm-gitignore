@@ -17,3 +17,5 @@
 # esta regla negaria entonces la exlclusion de archivos .log
 
 !/assets/*.log
+
+.env

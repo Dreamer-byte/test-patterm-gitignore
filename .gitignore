@@ -19,3 +19,12 @@
 !/assets/*.log
 
 .env
+
+
+#No rastrear todos los archivos de build.
+/build/*
+
+#solo rastrear el archivo voidfile.txt
+
+
+!/build/voidfile.txt
